@@ -1,0 +1,4 @@
+---
+- hosts: linsrv
+  roles:
+    - role: apache_httpd
