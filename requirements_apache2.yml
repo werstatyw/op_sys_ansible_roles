@@ -1,2 +1,2 @@
-- src: https://github.com/idealista/apache_httpd_role.git
-  name: apache_httpd
+- src: https://github.com/werstatyw/apache_httpd_role.git
+  name: apache_httpd_by_werstatyw
