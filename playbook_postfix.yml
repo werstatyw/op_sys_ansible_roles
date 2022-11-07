@@ -1,0 +1,10 @@
+---
+- hosts: all
+  roles:
+    - oefenweb.postfix
+  vars:
+    postfix_aliases:
+      - user: root
+        alias: alexg@grigoryev.eu
+      - user: john
+        alias: john@grigoryev.eu
