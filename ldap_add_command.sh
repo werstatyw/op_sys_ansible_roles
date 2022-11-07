@@ -1,0 +1,1 @@
+sudo ldapadd -x -D "cn=admin,dc=grigoryev,dc=eu" -w P@55w0rd -f /etc/ldap/slapd.d/populate_content.ldif

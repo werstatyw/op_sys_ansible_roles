@@ -1,0 +1,110 @@
+dn: ou=Group 1,dc=grigoryev,dc=eu
+objectClass: organizationalUnit
+
+dn: ou=Group 2,dc=grigoryev,dc=eu
+objectClass: organizationalUnit
+
+dn: ou=Group 3,dc=grigoryev,dc=eu
+objectClass: organizationalUnit
+
+
+dn: cn=miners,ou=Group 1,dc=grigoryev,dc=eu
+objectClass: posixGroup
+cn: miners
+gidNumber: 5000
+
+dn: uid=john,ou=Group 1,dc=grigoryev,dc=eu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: john
+sn: Smith
+givenName: John
+cn: John Smith
+displayName: John Smith
+uidNumber: 10000
+gidNumber: 5000
+userPassword: P@55w0rd
+gecos: John Smith
+loginShell: /bin/bash
+homeDirectory: /home/john
+
+dn: uid=gordon,ou=Group 1,dc=grigoryev,dc=eu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: gordon
+sn: Freeman
+givenName: Gordon
+cn: Gordon Freeman
+displayName: Gordon Freeman
+uidNumber: 10001
+gidNumber: 5000
+userPassword: P@55w0rd
+gecos: Gordon Freeman
+loginShell: /bin/bash
+homeDirectory: /home/gordon
+
+dn: uid=johnp,ou=Group 2,dc=grigoryev,dc=eu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: johnp
+sn: Potting
+givenName: John
+cn: John Potting
+displayName: John Potting
+uidNumber: 10002
+gidNumber: 5000
+userPassword: P@55w0rd
+gecos: John Potting
+loginShell: /bin/bash
+homeDirectory: /home/johnp
+
+dn: uid=johnk,ou=Group 2,dc=grigoryev,dc=eu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: johnk
+sn: Kergauer
+givenName: John
+cn: John Kergauer
+displayName: John Kergauer
+uidNumber: 10003
+gidNumber: 5000
+userPassword: P@55w0rd
+gecos: John Kergauer
+loginShell: /bin/bash
+homeDirectory: /home/johnk
+
+dn: uid=psst,ou=Group 3,dc=grigoryev,dc=eu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: psst
+sn: Tsst
+givenName: Psst
+cn: Psst Tsst
+displayName: Psst Tsst
+uidNumber: 10004
+gidNumber: 5000
+userPassword: P@55w0rd
+gecos: Psst Tsst
+loginShell: /bin/bash
+homeDirectory: /home/psst
+
+dn: uid=tsst,ou=Group 3,dc=grigoryev,dc=eu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tsst
+sn: Psst
+givenName: Tsst
+cn: Tsst Psst
+displayName: Tsst Psst
+uidNumber: 10005
+gidNumber: 5000
+userPassword: P@55w0rd
+gecos: Tsst Psst
+loginShell: /bin/bash
+homeDirectory: /home/tsst
