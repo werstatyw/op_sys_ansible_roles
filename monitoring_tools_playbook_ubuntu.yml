@@ -5,7 +5,7 @@
     NETRC: ''
 
   roles:
-    - role: ansible-monitoring-plugins
+    - role: bodsch.monitoring_plugins
 
   pre_tasks:
     - name: python version
