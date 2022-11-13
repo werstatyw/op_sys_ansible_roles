@@ -3,7 +3,7 @@
 
 counter=1
 
-while [$counter -le 10 ]
+while [$counter -l 10 ]
 do 
     echo $counter
     ((counter++))
